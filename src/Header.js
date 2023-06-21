@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css"
+import "./index.css";
 function Header(){
     return(
      <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -22,21 +22,23 @@ function Header(){
               </li>
           </ul>
        </div>
-       <div class="container-fluid ">
-       <form class="d-flex" role="search"> 
-          <div class="col-auto">
-             <input class="form-control " type="search" placeholder="Search"></input>
-          </div>
-       </form>
-             <div class="col-auto">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-             </div>
-             <div class="col-auto">
-                 <a class="navbar-login" href="#">Login</a>
-             </div>
-             <div class="col-auto">
-                 <button type="button" class="btn btn-outline-primary" id="signup">Sign up</button>
-             </div>
+       <div class="container mx-auto">
+        <ul className="navbar-nav">
+          <li class="nav-item">
+             <form role="search"> 
+                <input class="form-control form-control-sm " type="search" placeholder="Search"></input>
+             </form>
+          </li>
+          <li class="nav-item">
+             <button class="btn btn-outline-success btn-sm" type="button" >Search</button>
+          </li>
+          <li class="nav-item">
+            <a class="navbar-login" href="#">Login</a>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-outline-primary btn-sm" id="signup">Sign up</button>
+          </li>
+        </ul>       
       </div>
       </nav>
     )

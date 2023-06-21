@@ -1,4 +1,4 @@
-body {
+html, body {
   margin: 0;
 }
 
@@ -11,22 +11,16 @@ body {
 .navbar-login{
   text-decoration: none;
   font-size: 1.1rem;
-  color:black;
-  margin-left: 1.5rem;
+  color:gray;
 }
 .btn-outline-primary{
   border-radius: 1.5rem;
-  margin-left: 3rem;
-}
-.container-fluid{
-  margin-right:3rem;
-}
-.btn-outline-success{
-  margin-right: 2rem;
-}
-.form-control{
-  margin-right: 1rem;
+  color: gray;
+  border-color: gray;
 }
 .navbar-nav > li {
   margin-right: 20px; 
+}
+.nav-link{
+  color: gray;
 }
