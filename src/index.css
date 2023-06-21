@@ -2,10 +2,31 @@ body {
   margin: 0;
 }
 
-.title{
+.navbar-brand{
   text-decoration: none;
   font-size:30px;
   color: darkcyan;
   font-family:cursive;
 }
-
+.navbar-login{
+  text-decoration: none;
+  font-size: 1.1rem;
+  color:black;
+  margin-left: 1.5rem;
+}
+.btn-outline-primary{
+  border-radius: 1.5rem;
+  margin-left: 3rem;
+}
+.container-fluid{
+  margin-right:3rem;
+}
+.btn-outline-success{
+  margin-right: 2rem;
+}
+.form-control{
+  margin-right: 1rem;
+}
+.navbar-nav > li {
+  margin-right: 20px; 
+}
