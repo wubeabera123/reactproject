@@ -66,7 +66,23 @@ html, body {
   border-radius: 40px;
   margin-top: 30px;
 }
-.buttons{
+#buttons{
   margin-left: 125px;
   margin-top: -200px;
+}
+.button3{
+  border-radius: 40px;
+  background-color: pink;
+  width: 150px;
+  height: 40px;
+  
+}
+.button4{
+  border-radius: 40px;
+  background-color: pink;
+  width: 150px;
+  height: 40px;
+}
+.short-text{
+  font-size:20px;
 }

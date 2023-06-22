@@ -18,10 +18,10 @@ function Body(){
             <img src={join} className="second-image"/>   
             <img src={bar} className="third-image"/> 
         </div>
-        <div className=" buttons d-flex">
-            <p className="short-text">Popular directions</p>
-            <button type="button" className="button3">UX/UI Design</button>    
-            <button type="button" className="button4">Illustration</button>
+        <div className="container d-flex" id="buttons">
+            <p className="short-text p-2">Popular directions</p>
+            <button type="button" className="button3 p-2">UX/UI Design</button>    
+            <button type="button" className="button4 p-2">Illustration</button>
          </div>
       </div>
     )    
